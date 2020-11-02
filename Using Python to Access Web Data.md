@@ -7,8 +7,7 @@ In this assignment you will read through and parse a file with text and numbers.
 #### Data Files
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
-> Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)
-
+> Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
 > Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
 #### Data Format
@@ -16,14 +15,14 @@ The file contains much of the text from the introduction of the textbook except 
 
 
 `
-Why should you learn to write programs? 7746
-12 1929 8827
-Writing programs (or programming) is a very creative 
-7 and rewarding activity.  You can write programs for 
-many reasons, ranging from making your living to solving
-8837 a difficult data analysis problem to having fun to helping 128
-someone else solve a problem.  This book assumes that 
-everyone needs to know how to program ...
+Why should you learn to write programs? 7746\
+12 1929 8827\
+Writing programs (or programming) is a very creative \
+7 and rewarding activity.  You can write programs for \
+many reasons, ranging from making your living to solving\
+8837 a difficult data analysis problem to having fun to helping 128\
+someone else solve a problem.  This book assumes that \
+everyone needs to know how to program ...\
 `
 
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
@@ -86,11 +85,11 @@ Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 
 
 #### Data Format
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
-
-<tr><td>Modu</td><td><span class="comments">90</span></td></tr>
-<tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
-<tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
-
+`
+<tr><td>Modu</td><td><span class="comments">90</span></td></tr>\
+<tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>\
+<tr><td>Hubert</td><td><span class="comments">87</span></td></tr>\
+`
 You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
 Look at the sample code provided. It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
 
