@@ -14,16 +14,15 @@ We provide two files for this assignment. One is a sample file where we give you
 The file contains much of the text from the introduction of the textbook except that random numbers are inserted throughout the text. Here is a sample of the output you might see:
 
 
-`
-Why should you learn to write programs? 7746\
+> Why should you learn to write programs? 7746\
 12 1929 8827\
 Writing programs (or programming) is a very creative \
 7 and rewarding activity.  You can write programs for \
 many reasons, ranging from making your living to solving\
 8837 a difficult data analysis problem to having fun to helping 128\
 someone else solve a problem.  This book assumes that \
-everyone needs to know how to program ...\
-`
+everyone needs to know how to program ...
+
 
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
@@ -93,16 +92,16 @@ The file is a table of names and comment counts. You can ignore most of the data
 You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
 Look at the sample code provided. It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
 
-> ...
-# Retrieve all of the anchor tags
+` ...
+#Retrieve all of the anchor tags
 tags = soup('a')
 for tag in tags:
-   # Look at the parts of a tag
+   #Look at the parts of a tag
    print 'TAG:',tag
    print 'URL:',tag.get('href', None)
    print 'Contents:',tag.contents[0]
    print 'Attrs:',tag.attrs
-   
+`   
 You need to adjust this code to look for **span** tags and pull out the text content of the span tag, convert them to integers and add them up to complete the assignment.
 
 #### Sample Execution
