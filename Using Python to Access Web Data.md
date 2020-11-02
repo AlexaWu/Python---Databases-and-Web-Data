@@ -316,16 +316,23 @@ The data consists of a number of names and comment counts in JSON as follows:
       name: "Geomer"\
       count: 97\
     }\
-    ...
-  ]
+    ...\
+  ]\
 }
+
 The closest sample code that shows how to parse JSON and extract a list is json2.py. You might also want to look at geoxml.py to see how to prompt for a URL and retrieve data from a URL.
 
 #### Sample Execution
 
->$ python3 solution.py
-Enter location: http://py4e-data.dr-chuck.net/comments_42.json
-Retrieving http://py4e-data.dr-chuck.net/comments_42.json
-Retrieved 2733 characters
-Count: 50
+>$ python3 solution.py\
+Enter location: http://py4e-data.dr-chuck.net/comments_42.json \
+Retrieving http://py4e-data.dr-chuck.net/comments_42.json \
+Retrieved 2733 characters\
+Count: 50\
 Sum: 2...
+
+#### Python code:
+```javascript
+
+
+```
