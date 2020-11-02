@@ -8,7 +8,7 @@ In this assignment you will read through and parse a file with text and numbers.
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
-> Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
+ Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
 #### Data Format
 The file contains much of the text from the introduction of the textbook except that random numbers are inserted throughout the text. Here is a sample of the output you might see:
@@ -80,7 +80,7 @@ mysock.close()
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
 > Sample data: http://py4e-data.dr-chuck.net/comments_42.html (Sum=2553)\
-> Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 46)
+ Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 46)
 
 #### Data Format
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
@@ -95,12 +95,12 @@ You are to find all the <span> tags in the file and pull out the numbers from th
 It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
 
 > ...\
-> #Retrieve all of the anchor tags\
-> tags = soup('a')\
-> for tag in tags:\
->    #Look at the parts of a tag\
->    print 'TAG:',tag\
->    print 'URL:',tag.get('href', None)\
+ #Retrieve all of the anchor tags\
+ tags = soup('a')\
+ for tag in tags:\
+    #Look at the parts of a tag\
+    print 'TAG:',tag\
+    print 'URL:',tag.get('href', None)\
    print 'Contents:',tag.contents[0]\
    print 'Attrs:',tag.attrs
 
@@ -108,7 +108,7 @@ You need to adjust this code to look for **span** tags and pull out the text con
 
 #### Sample Execution
 >$ python3 solution.py\
-Enter - http://py4e-data.dr-chuck.net/comments_42.html\
+Enter - http://py4e-data.dr-chuck.net/comments_42.html \
 Count 50\
 Sum 2...
 
