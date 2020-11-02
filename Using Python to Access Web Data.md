@@ -16,9 +16,9 @@ The file contains much of the text from the introduction of the textbook except 
 
 
 > Why should you learn to write programs? 7746
-12 1929 8827
-Writing programs (or programming) is a very creative 
-7 and rewarding activity.  You can write programs for 
+> 12 1929 8827
+> Writing programs (or programming) is a very creative 
+> 7 and rewarding activity.  You can write programs for 
 many reasons, ranging from making your living to solving
 8837 a difficult data analysis problem to having fun to helping 128
 someone else solve a problem.  This book assumes that 
@@ -85,8 +85,7 @@ Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 
 #### Data Format
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
 
->
-<tr><td>Modu</td><td><span class="comments">90</span></td></tr>
+><tr><td>Modu</td><td><span class="comments">90</span></td></tr>
 <tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
 <tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
 
