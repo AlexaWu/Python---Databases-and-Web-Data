@@ -152,11 +152,11 @@ In this assignment you will write a Python program that expands on http://www.py
 We provide two files for this assignment. One is a sample file where we give you the name for your testing and the other is the actual data you need to process for the assignment
 
 >Sample problem: Start at http://py4e-data.dr-chuck.net/known_by_Fikret.html \
-Find the link at position 3 (the first name is 1). Follow that link. Repeat this process 4 times. The answer is the last name that you retrieve.\
+Find the link at position **3** (the first name is 1). Follow that link. Repeat this process **4** times. The answer is the last name that you retrieve.\
 Sequence of names: Fikret Montgomery Mhairade Butchi Anayah\
 Last name in sequence: Anayah\
 Actual problem: Start at: http://py4e-data.dr-chuck.net/known_by_Jonatan.html \
-Find the link at position 18 (the first name is 1). Follow that link. Repeat this process 7 times. The answer is the last name that you retrieve.\
+Find the link at position **18** (the first name is 1). Follow that link. Repeat this process **7** times. The answer is the last name that you retrieve.\
 Hint: The first character of the name of the last page that you will load is: I
 
 #### Strategy
