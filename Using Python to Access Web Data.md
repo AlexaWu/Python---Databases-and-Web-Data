@@ -14,8 +14,8 @@ We provide two files for this assignment. One is a sample file where we give you
 #### Data Format
 The file contains much of the text from the introduction of the textbook except that random numbers are inserted throughout the text. Here is a sample of the output you might see:
 
-```javascript
-Why should you learn to write programs? 7746
+
+> Why should you learn to write programs? 7746
 12 1929 8827
 Writing programs (or programming) is a very creative 
 7 and rewarding activity.  You can write programs for 
@@ -23,7 +23,7 @@ many reasons, ranging from making your living to solving
 8837 a difficult data analysis problem to having fun to helping 128
 someone else solve a problem.  This book assumes that 
 everyone needs to know how to program ...
-```
+
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
 
@@ -56,8 +56,22 @@ Open the URL in a web browser with a developer console or FireBug and manually e
 
 #### Python code:
 
+```javascript
+import socket
 
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('data.pr4e.org', 80))
+cmd = 'GET http://data.pr4e.org/intro-short.txt HTTP/1.0\r\n\r\n'.encode()
+mysock.send(cmd)
 
+while True:
+    data = mysock.recv(512)
+    if len(data) < 1:
+        break
+    print(data.decode(),end='')
+
+mysock.close()
+```
 
 
 
