@@ -141,7 +141,7 @@ for tag in tags:
 print(sum(number))
 ```
 #### Sum:
-2446[picture]
+![2446](command prompt/urllink2.PNG)
 
 # Following Links in HTML Using BeautifulSoup
 
