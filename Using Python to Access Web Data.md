@@ -6,6 +6,7 @@ In this assignment you will read through and parse a file with text and numbers.
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
 Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)
+
 Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
 #### Data Format
@@ -21,7 +22,7 @@ many reasons, ranging from making your living to solving
 someone else solve a problem.  This book assumes that 
 everyone needs to know how to program ...
 ```
-The sum for the sample text above is *27486*. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
+The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
 
 #### Handling The Data
