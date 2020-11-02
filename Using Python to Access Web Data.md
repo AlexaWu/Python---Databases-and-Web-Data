@@ -140,8 +140,7 @@ for tag in tags:
 
 print(sum(number))
 ```
-#### Sum:
-![2446](https://github.com/AlexaWu/Python/blob/main/command%20prompt/urllink2.PNG)
+#### Sum: 2446
 
 # Following Links in HTML Using BeautifulSoup
 
@@ -215,8 +214,7 @@ for i in range(count):
 print(name)
 ```
 
-#### Name:
-Ismaeel [picture]
+#### Name: Ismaeel 
 
 # Extracting Data from XML
 
@@ -290,8 +288,7 @@ list = [int(count.text) for count in counts]
 print(sum(list))
 
 ```
-#### Sum:
-2232 [picture]
+#### Sum: 2232
 
 # Extracting Data from JSON
 
