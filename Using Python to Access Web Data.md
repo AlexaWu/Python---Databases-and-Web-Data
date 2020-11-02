@@ -21,7 +21,7 @@ many reasons, ranging from making your living to solving
 someone else solve a problem.  This book assumes that 
 everyone needs to know how to program ...
 ```
-The sum for the sample text above is *27486. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
+The sum for the sample text above is *27486*. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
 
 #### Handling The Data
