@@ -44,7 +44,6 @@ _**Handling The Data**_
 The basic outline of this problem is to read the file, look for integers using the re.findall(), looking for a regular expression of '[0-9]+' and then converting the extracted strings to integers and summing up the integers.
 
 
-###  My work:
 #### Python code:
 ```javascript
 import re
@@ -76,7 +75,6 @@ There are three ways that you might retrieve this web page and look at the respo
 **Preferred:** Modify the socket1.py program to retrieve the above URL and print out the headers and data. Make sure to change the code to retrieve the above URL - the values are different for each URL.
 Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
 
-###  My work:
 #### Python code:
 
 ```javascript
@@ -115,7 +113,8 @@ The file is a table of names and comment counts. You can ignore most of the data
 
 You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
     
-#### Sample Code
+_**Sample Code**_
+
 It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
 
 > ...\
@@ -130,13 +129,13 @@ It shows how to find all of a certain kind of tag, loop through the tags and ext
 
 You need to adjust this code to look for **span** tags and pull out the text content of the span tag, convert them to integers and add them up to complete the assignment.
 
-#### Sample Execution
+_**Sample Execution**_
+
 >$ python3 solution.py\
 Enter - http://py4e-data.dr-chuck.net/comments_42.html \
 Count 50\
 Sum 2...
 
-###  My work:
 #### Python code:
 ```javascript
 # To run this, download the BeautifulSoup zip file
@@ -169,7 +168,7 @@ print(sum(number))
 
 # Following Links in HTML Using BeautifulSoup
 
-#### Following Links in Python
+**_Following Links in Python**_
 
 In this assignment you will write a Python program that expands on http://www.py4e.com/code3/urllinks.py. The program will use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
 
@@ -183,10 +182,11 @@ Actual problem: Start at: http://py4e-data.dr-chuck.net/known_by_Jonatan.html \
 Find the link at position **18** (the first name is 1). Follow that link. Repeat this process **7** times. The answer is the last name that you retrieve.\
 Hint: The first character of the name of the last page that you will load is: I
 
-#### Strategy
+**_Strategy**_
+
 The web pages tweak the height between the links and hide the page after a few seconds to make it difficult for you to do the assignment without writing a Python program. But frankly with a little effort and patience you can overcome these attempts to make it a little harder to complete the assignment without writing a Python program. But that is not the point. The point is to write a clever Python program to solve the program.
 
-#### Sample execution
+**_Sample execution**_
 
 > $ python3 solution.py\
 Enter URL: http://py4e-data.dr-chuck.net/known_by_Fikret.html \
@@ -252,7 +252,8 @@ Actual data: http://py4e-data.dr-chuck.net/comments_1037118.xml (Sum ends with 3
 
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
 
-#### Data Format and Approach
+**_Data Format and Approach**_
+
 The data consists of a number of names and comment counts in XML as follows:
 
 ><comment>\
@@ -268,7 +269,7 @@ To make the code a little simpler, you can use an XPath selector string to look 
 
 Take a look at the Python ElementTree documentation and look for the supported XPath syntax for details. You could also work from the top of the XML down to the comments node and then loop through the child nodes of the comments node.
 
-#### Sample Execution
+**_Sample Execution**_
 
 >$ python3 solution.py\
 Enter location: http://py4e-data.dr-chuck.net/comments_42.xml \
@@ -325,7 +326,8 @@ Actual data: http://py4e-data.dr-chuck.net/comments_1037119.json (Sum ends with 
 
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
 
-#### Data Format
+**_Data Format**_
+
 The data consists of a number of names and comment counts in JSON as follows:
 
 >{\
@@ -344,7 +346,7 @@ The data consists of a number of names and comment counts in JSON as follows:
 
 The closest sample code that shows how to parse JSON and extract a list is json2.py. You might also want to look at geoxml.py to see how to prompt for a URL and retrieve data from a URL.
 
-#### Sample Execution
+**_Sample Execution**_
 
 >$ python3 solution.py\
 Enter location: http://py4e-data.dr-chuck.net/comments_42.json \
