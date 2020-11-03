@@ -96,7 +96,9 @@ mysock.close()
 
 # Scraping HTML Data with BeautifulSoup
 
-**Scraping Numbers from HTML using BeautifulSoup** Write a Python program which will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
+_**Scraping Numbers from HTML using BeautifulSoup**_ 
+
+Write a Python program which will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
 
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
