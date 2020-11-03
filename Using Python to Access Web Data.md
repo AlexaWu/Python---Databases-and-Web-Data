@@ -5,12 +5,12 @@
 - Retrieve data from websites and APIs using Python
 - Work with XML (eXtensible Markup Language) data
 
-`Json`   `Xml`   `Python Programming`   `Web Scraping`
+`Json`  | `Xml` |  `Python Programming`  | `Web Scraping`
 
 
 # Extracting Data With Regular Expressions 
 
-###### Finding Numbers in a Haystack
+##### Finding Numbers in a Haystack
 
 In this assignment you will read through and parse a file with text and numbers. You will extract all the numbers in the file and compute the sum of the numbers.
 
