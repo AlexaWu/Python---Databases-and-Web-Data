@@ -96,7 +96,7 @@ mysock.close()
 
 # Scraping HTML Data with BeautifulSoup
 
-**Scraping Numbers from HTML using BeautifulSoup** In this assignment you will write a Python program similar to http://www.py4e.com/code3/urllink2.py. The program will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
+**Scraping Numbers from HTML using BeautifulSoup** Write a Python program which will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
 
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
@@ -170,7 +170,7 @@ print(sum(number))
 
 _**Following Links in Python**_
 
-In this assignment you will write a Python program that expands on http://www.py4e.com/code3/urllinks.py. The program will use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
+Write a Python program which will use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
 
 We provide two files for this assignment. One is a sample file where we give you the name for your testing and the other is the actual data you need to process for the assignment
 
@@ -243,7 +243,7 @@ print(name)
 
 # Extracting Data from XML
 
-In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/geoxml.py. The program will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
+Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
@@ -318,7 +318,7 @@ print(sum(list))
 
 # Extracting Data from JSON
 
-In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/json2.py. The program will prompt for a URL, read the JSON data from that URL using **urllib** and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
+Write a Python program which will prompt for a URL, read the JSON data from that URL using **urllib** and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
 >Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)\
