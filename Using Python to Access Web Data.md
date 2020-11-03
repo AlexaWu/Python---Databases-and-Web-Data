@@ -10,6 +10,8 @@
 
 # Extracting Data With Regular Expressions 
 
+### Project contents:
+
 _**Finding Numbers in a Haystack**_
 
 In this assignment you will read through and parse a file with text and numbers. You will extract all the numbers in the file and compute the sum of the numbers.
@@ -21,7 +23,8 @@ We provide two files for this assignment. One is a sample file where we give you
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
  Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
-#### Data Format
+_**Data Format**_
+
 The file contains much of the text from the introduction of the textbook except that random numbers are inserted throughout the text. Here is a sample of the output you might see:
 
 
@@ -38,10 +41,12 @@ everyone needs to know how to program ...
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
 
-#### Handling The Data
+_**Handling The Data**_
+
 The basic outline of this problem is to read the file, look for integers using the re.findall(), looking for a regular expression of '[0-9]+' and then converting the extracted strings to integers and summing up the integers.
 
 
+###  My work:
 #### Python code:
 ```javascript
 import re
