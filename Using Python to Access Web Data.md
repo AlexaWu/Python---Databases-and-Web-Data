@@ -40,15 +40,23 @@ The sum for the sample text above is **27486**. The numbers can appear anywhere 
 #### Handling The Data
 The basic outline of this problem is to read the file, look for integers using the re.findall(), looking for a regular expression of '[0-9]+' and then converting the extracted strings to integers and summing up the integers.
 
-#### Sum:
+
 #### Python code:
+```javascript
+import re
+handle = open('regex_sum_1037114.txt')
+file = handle.read()
+numbers = re.findall('[0-9]+',file)
+sum = 0
 
+for text in numbers:
+    text = int(text)
+    sum = sum + text
 
+print (sum)
+```
 
-
-
-
-
+#### Sum: 357873
 
 
 
