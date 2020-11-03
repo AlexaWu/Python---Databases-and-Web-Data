@@ -10,8 +10,6 @@
 
 # Extracting Data With Regular Expressions 
 
-### Project contents:
-
 _**Finding Numbers in a Haystack**_
 
 In this assignment you will read through and parse a file with text and numbers. You will extract all the numbers in the file and compute the sum of the numbers.
@@ -68,7 +66,7 @@ print (sum)
 
 # Understanding the Request / Response Cycle
 
-#### Exploring the HyperText Transport Protocol
+_**Exploring the HyperText Transport Protocol**_
 
 You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
 
@@ -78,6 +76,7 @@ There are three ways that you might retrieve this web page and look at the respo
 **Preferred:** Modify the socket1.py program to retrieve the above URL and print out the headers and data. Make sure to change the code to retrieve the above URL - the values are different for each URL.
 Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
 
+###  My work:
 #### Python code:
 
 ```javascript
@@ -106,7 +105,8 @@ We provide two files for this assignment. One is a sample file where we give you
 > Sample data: http://py4e-data.dr-chuck.net/comments_42.html (Sum=2553)\
  Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 46)
 
-#### Data Format
+_**Data Format**_
+
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
 
 > <tr><td>Modu</td><td><span class="comments">90</span></td></tr>\
@@ -136,6 +136,7 @@ Enter - http://py4e-data.dr-chuck.net/comments_42.html \
 Count 50\
 Sum 2...
 
+###  My work:
 #### Python code:
 ```javascript
 # To run this, download the BeautifulSoup zip file
