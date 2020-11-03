@@ -410,7 +410,7 @@ Make sure to check that your code is using the API endpoint is as shown above. Y
 
 _**Test Data / Sample Execution**_
 
-You can test to see if your program is working with a location of "South Federal University" which will have a place_id of "ChIJJ2MNmPl_bIcRt8t5x-X5ZhQ".
+You can test to see if your program is working with a location of "South Federal University" which will have a **place_id** of "ChIJJ2MNmPl_bIcRt8t5x-X5ZhQ".
 
 >$ python3 solution.py\
 Enter location: South Federal University\
@@ -420,8 +420,17 @@ Place id ChIJJ2MNmPl_bIcRt8t5x-X5ZhQ
 
 _**Turn In**_
 
-Please run your program to find the place_id for this location:
+Please run your program to find the **place_id** for this location:
 
-Sharif University of Technology
-Make sure to enter the name and case exactly as above and enter the place_id and your Python code below. Hint: The first seven characters of the place_id are "ChIJY34 ..."
-Make sure to retreive the data from the URL specified above and not the normal Google API. Your program should work with the Google API - but the place_id may not match for this assignment.
+>Sharif University of Technology
+
+Make sure to enter the name and case exactly as above and enter the **place_id** and your Python code below. Hint: The first seven characters of the **place_id** are "ChIJY34 ..."
+Make sure to retreive the data from the URL specified above and **not** the normal Google API. Your program should work with the Google API - but the **place_id** may not match for this assignment.
+
+#### Python code:
+```javascript
+
+```
+
+
+#### place_id:
