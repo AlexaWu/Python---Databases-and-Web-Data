@@ -1,3 +1,12 @@
+# Summary & Key Skills
+
+- Use the Create, Read, Update, and Delete operations to manage databases
+- Explain the basics of Object Oriented Python
+- Understand how data is stored across multiple tables in a database
+- Utilize the Google Maps API to visualize data
+
+`Python Programming`   `Database (DBMS)`   `Sqlite`   `SQL`
+
 # Counting Organizations
 
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
@@ -55,3 +64,43 @@ cur.close()
 ### SQLite
 ![](https://github.com/AlexaWu/Python/blob/main/SQLite/emaildb.PNG)
 
+# Multi-Table Database - Tracks
+
+_**Musical Track Database**_
+This application will read an iTunes export file in XML and produce a properly normalized database with this structure:
+
+CREATE TABLE Artist (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    name    TEXT UNIQUE
+);
+
+CREATE TABLE Genre (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    name    TEXT UNIQUE
+);
+
+CREATE TABLE Album (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    artist_id  INTEGER,
+    title   TEXT UNIQUE
+);
+
+CREATE TABLE Track (
+    id  INTEGER NOT NULL PRIMARY KEY 
+        AUTOINCREMENT UNIQUE,
+    title TEXT  UNIQUE,
+    album_id  INTEGER,
+    genre_id  INTEGER,
+    len INTEGER, rating INTEGER, count INTEGER
+);
+If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
+
+You can use this code as a starting point for your application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used for this assignment. You can export your own tracks from iTunes and create a database, but for the database that you turn in for this assignment, only use the Library.xml data that is provided.
+
+To grade this assignment, the program will run a query like this on your uploaded database and look for the data it expects to see:
+
+SELECT Track.title, Artist.name, Album.title, Genre.name 
+    FROM Track JOIN Genre JOIN Album JOIN Artist 
+    ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
+        AND Album.artist_id = Artist.id
+    ORDER BY Artist.name LIMIT 3
