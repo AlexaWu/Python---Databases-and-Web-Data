@@ -105,7 +105,7 @@ There are two files: One is a sample file where we give you the sum for your tes
 
 _**Data Format**_
 
-The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
+The file is a table of names and comment counts. Find lines like the following:
 
 ```javascript
 <tr><td>Modu</td><td><span class="comments">90</span></td></tr>
@@ -113,7 +113,7 @@ The file is a table of names and comment counts. You can ignore most of the data
 <tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
 ```
 
-You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
+Find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
     
 _**Sample Execution**_
 
@@ -241,12 +241,12 @@ You do not need to save these files to your folder since your program will read 
 _**Data Format and Approach**_
 
 The data consists of a number of names and comment counts in XML as follows:
-
-><comment>\
-  <name>Matthias</name>\
-  <count>97</count>\
+```javascript
+<comment>
+  <name>Matthias</name>
+  <count>97</count>
 </comment>
-
+```
 You are to look through all the <comment> tags and find the <count> values sum the numbers. The closest sample code that shows how to parse XML is geoxml.py. But since the nesting of the elements in our data is different than the data we are parsing in that sample code you will have to make real changes to the code.
  
 To make the code a little simpler, you can use an XPath selector string to look through the entire tree of XML for any tag named 'count' with the following line of code:
