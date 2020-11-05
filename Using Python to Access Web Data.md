@@ -67,13 +67,11 @@ print (sum)
 
 _**Exploring the HyperText Transport Protocol**_
 
-You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
+Retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
 
 http://data.pr4e.org/intro-short.txt
-There are three ways that you might retrieve this web page and look at the response headers:
 
-**Preferred:** Modify the socket1.py program to retrieve the above URL and print out the headers and data. Make sure to change the code to retrieve the above URL - the values are different for each URL.
-Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
+Retrieve the above URL and print out the headers and data. Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
 
 #### Python code:
 
@@ -100,7 +98,7 @@ _**Scraping Numbers from HTML using BeautifulSoup**_
 
 Write a Python program which will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
 
-We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
+There are two files: One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
 > Sample data: http://py4e-data.dr-chuck.net/comments_42.html (Sum=2553)\
  Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 46)
