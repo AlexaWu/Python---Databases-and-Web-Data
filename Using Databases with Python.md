@@ -52,5 +52,6 @@ for row in cur.execute(sqlstr):
 cur.close()
 ```
 
-
+### SQLite
+![](https://github.com/AlexaWu/Python/blob/main/SQLite/emaildb.PNG)
 
