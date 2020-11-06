@@ -107,3 +107,9 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
     ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
         AND Album.artist_id = Artist.id
     ORDER BY Artist.name LIMIT 3
+    
+To export your own Library.xml from iTunes 
+
+>File -> Library -> Export Library
+
+Make sure it is in the correct folder. iTUnes might change UI and/or export format any time
