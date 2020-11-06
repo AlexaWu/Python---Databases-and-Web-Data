@@ -67,6 +67,7 @@ cur.close()
 # Multi-Table Database - Tracks
 
 _**Musical Track Database**_
+
 This application will read an iTunes export file in XML and produce a properly normalized database with this structure:
 
 ```Javascript
@@ -97,7 +98,7 @@ CREATE TABLE Track (
 ```
 If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
 
-You can use this code as a starting point for your application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
+You can use this code as a starting point for the application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
 
 The program will run a query like this on your uploaded database and look for the data it expects to see:
 
