@@ -68,37 +68,14 @@ cur.close()
 
 _**Musical Track Database**_
 
-This application will read an iTunes export file in XML and produce a properly normalized database with this structure:
+This application will read an iTunes export file in XML and produce a properly normalized database.
 
-```Javascript
-CREATE TABLE Artist (
-    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, 
-    name    TEXT UNIQUE 
-);
-
-CREATE TABLE Genre (
-    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-    name    TEXT UNIQUE
-);
-
-CREATE TABLE Album (
-    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-    artist_id  INTEGER,
-    title   TEXT UNIQUE
-);
-
-CREATE TABLE Track (
-    id  INTEGER NOT NULL PRIMARY KEY 
-        AUTOINCREMENT UNIQUE,
-    title TEXT  UNIQUE,
-    album_id  INTEGER,
-    genre_id  INTEGER,
-    len INTEGER, rating INTEGER, count INTEGER
-);
-```
 If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
 
-You can use this code as a starting point for the application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
+- You can use this code for the application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
+
+- To export your own Library.xml from iTunes: File -> Library -> Export Library/
+Make sure it is in the correct folder. iTUnes might change UI and/or export format any time
 
 The program will run a query like this on your uploaded database and look for the data it expects to see:
 
@@ -108,11 +85,6 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
         AND Album.artist_id = Artist.id
     ORDER BY Artist.name LIMIT 3
     
-To export your own Library.xml from iTunes 
-
->File -> Library -> Export Library
-
-Make sure it is in the correct folder. iTUnes might change UI and/or export format any time
 
 ### Python code
 ```Javascript
