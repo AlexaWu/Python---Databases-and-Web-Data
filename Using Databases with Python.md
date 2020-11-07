@@ -176,6 +176,9 @@ for entry in all:
     conn.commit()
 ```
 
+### SQLite
+![](https://github.com/AlexaWu/Python/blob/main/SQLite/tracks-browse.PNG)
+
 ### Test trackdb.sqlite
 ```Javascript
 SELECT Track.title, Artist.name, Album.title, Genre.name 
@@ -184,7 +187,6 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
         AND Album.artist_id = Artist.id
     ORDER BY Artist.name LIMIT 3
 ```    
-### SQLite
 ![](https://github.com/AlexaWu/Python/blob/main/SQLite/tracks.PNG)
 
 # Many Students in Many Courses
