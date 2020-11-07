@@ -75,16 +75,7 @@ If you run the program multiple times in testing or with different files, make s
 - You can use this code for the application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
 
 - To export your own Library.xml from iTunes: File -> Library -> Export Library. Make sure it is in the correct folder. iTUnes might change UI and/or export format any time.
-
--**Test trackdb.sqlite**_
-
-SELECT Track.title, Artist.name, Album.title, Genre.name 
-    FROM Track JOIN Genre JOIN Album JOIN Artist 
-    ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
-        AND Album.artist_id = Artist.id
-    ORDER BY Artist.name LIMIT 3
-    
-
+  
 ### Python code
 ```Javascript
 import xml.etree.ElementTree as ET
@@ -185,6 +176,14 @@ for entry in all:
     conn.commit()
 ```
 
+### Test trackdb.sqlite
+
+SELECT Track.title, Artist.name, Album.title, Genre.name 
+    FROM Track JOIN Genre JOIN Album JOIN Artist 
+    ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
+        AND Album.artist_id = Artist.id
+    ORDER BY Artist.name LIMIT 3
+    
 ### SQLite
 ![]()
 
