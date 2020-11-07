@@ -185,7 +185,7 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
     ORDER BY Artist.name LIMIT 3
     
 ### SQLite
-![]()
+![](https://github.com/AlexaWu/Python/blob/main/SQLite/tracks.PNG)
 
 # Many Students in Many Courses
 
