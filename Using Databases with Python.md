@@ -74,10 +74,9 @@ If you run the program multiple times in testing or with different files, make s
 
 - You can use this code for the application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used.
 
-- To export your own Library.xml from iTunes: File -> Library -> Export Library/
-Make sure it is in the correct folder. iTUnes might change UI and/or export format any time
+- To export your own Library.xml from iTunes: File -> Library -> Export Library. Make sure it is in the correct folder. iTUnes might change UI and/or export format any time.
 
-The program will run a query like this on your uploaded database and look for the data it expects to see:
+-**Test trackdb.sqlite**_
 
 SELECT Track.title, Artist.name, Album.title, Genre.name 
     FROM Track JOIN Genre JOIN Album JOIN Artist 
