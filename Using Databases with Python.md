@@ -289,6 +289,6 @@ SELECT 'XYZZY' || hex(User.name || Course.title || Member.role ) AS X FROM
 Then you could get one row with a string: XYZZY4161646974736933363330
 
 ### SQLite
-!()[]
+!()[https://github.com/AlexaWu/Python/blob/main/SQLite/rosterdb.PNG]
 
 # 
