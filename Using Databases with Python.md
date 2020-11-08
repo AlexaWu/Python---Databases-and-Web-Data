@@ -195,22 +195,9 @@ _**Instructions**_
 
 This application will read roster data in JSON format, parse the file, and then produce an SQLite database that contains a User, Course, and Member table and populate the tables from the data file.
 
-Each student gets their own file for the assignment. Download this file and save it as roster_data.json. Move the downloaded file into the **same folder** as your roster.py program.
+Download this file (https://www.py4e.com/tools/sql-intro/roster_data.php?PHPSESSID=2f6cf52fc6bce10a6969a93a55f9cecf) and save it as roster_data.json. Move the downloaded file into the **same folder** as the below roster.py program.
 
-Read the above JSON data, run the following SQL command:
-
-SELECT User.name,Course.title, Member.role FROM 
-    User JOIN Member JOIN Course 
-    ON User.id = Member.user_id AND Member.course_id = Course.id
-    ORDER BY User.name DESC, Course.title DESC, Member.role DESC LIMIT 2;
-The output should look as follows:
-Zuriel|si110|0
-Zi|si206|0
-Once that query gives the correct data, run this query:
-SELECT 'XYZZY' || hex(User.name || Course.title || Member.role ) AS X FROM 
-    User JOIN Member JOIN Course 
-    ON User.id = Member.user_id AND Member.course_id = Course.id
-    ORDER BY X LIMIT 1;
+Read the above JSON data.
 
 ### Python code
 ```Javascript
@@ -279,3 +266,29 @@ for entry in json_data:
 
     conn.commit()
 ```
+### Test trackdb.sqlite
+
+Run the following SQL command:
+```Javascript
+SELECT User.name,Course.title, Member.role FROM 
+    User JOIN Member JOIN Course 
+    ON User.id = Member.user_id AND Member.course_id = Course.id
+    ORDER BY User.name DESC, Course.title DESC, Member.role DESC LIMIT 2;
+```    
+The output should look as follows:
+>Zuriel|si110|0\
+Zi|si206|0
+
+Once that query gives the correct data, run this query:
+```Javascript
+SELECT 'XYZZY' || hex(User.name || Course.title || Member.role ) AS X FROM 
+    User JOIN Member JOIN Course 
+    ON User.id = Member.user_id AND Member.course_id = Course.id
+    ORDER BY X LIMIT 1;
+```
+Then you could get one row with a string: XYZZY4161646974736933363330
+
+### SQLite
+!()[]
+
+# 
