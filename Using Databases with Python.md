@@ -62,7 +62,7 @@ cur.close()
 ```
 
 ### SQLite
-![](https://github.com/AlexaWu/Python/blob/main/SQLite/emaildb.PNG)
+![](https://github.com/AlexaWu/Python/blob/main/screenshots/emaildb.PNG)
 
 # Multi-Table Database - Tracks
 
