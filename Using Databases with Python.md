@@ -295,7 +295,7 @@ Then you could get one row with a string: XYZZY4161646974736933363330
 
 Use the Google GeoCoding API to retrieve data and then use Google Maps to visualize the data.
 
-![](https://github.com/AlexaWu/Python/blob/main/Databases%20and%20Visualization%20flow%20chart.PNG)
+![](https://github.com/AlexaWu/Python/blob/main/screenshots/Databases%20and%20Visualization%20flow%20chart.PNG)
 
 _**Retrieving GEOData**_
 
