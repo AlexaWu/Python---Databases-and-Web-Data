@@ -299,12 +299,6 @@ Use the Google GeoCoding API to retrieve data and then use Google Maps to visual
 
 Using the Google geocoding API to clean up some user-entered geographic locations of university names and then placing the data on a Google Map.
 
-Note: Windows has difficulty in displaying UTF-8 characters in the console so for each command window you open, you may need to type the following command before running this code:
-
-    chcp 65001
-
-http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
-
 _**Retrieving GEOData**_
 
 Download the code from http://www.py4e.com/code3/geodata.zip - then unzip the file.
@@ -316,6 +310,12 @@ Then run geodump.py to read the database and produce where.js.
 Run the programs. Then open where.html to visualize the map.
 
 _**More explanation**_
+
+Note: Windows has difficulty in displaying UTF-8 characters in the console so for each command window you open, you may need to type the following command before running this code:
+
+    chcp 65001
+
+http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
 
 The first problem to solve is that the Google geocoding API is rate limited to a fixed number of requests per day. So if you have a lot of data you might need to stop and restart the lookup process several times.  
 
