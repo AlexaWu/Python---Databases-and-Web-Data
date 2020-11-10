@@ -1,4 +1,4 @@
-## welcome! :smile:
+## Welcome! :smile:
 
 Below are the lists of my python projects.
 
