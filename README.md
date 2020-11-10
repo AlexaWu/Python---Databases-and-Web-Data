@@ -14,3 +14,7 @@ Below are the lists of my python projects.
 
 ### Using Databases with Python
 
+[Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
+[Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
+[Many Students in Many Courses](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#many-students-in-many-courses)\
+[Databases and Visualization (Google GeoCoding API & Google Maps)](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#databases-and-visualization-google-geocoding-api--google-maps)
