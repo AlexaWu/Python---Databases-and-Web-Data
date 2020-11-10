@@ -177,7 +177,7 @@ for entry in all:
 ```
 
 ### SQLite
-![](https://github.com/AlexaWu/Python/blob/main/SQLite/tracks-browse.PNG)
+![](https://github.com/AlexaWu/Python/blob/main/screenshots/tracks-browse.PNG)
 
 ### Test trackdb.sqlite
 ```Javascript
