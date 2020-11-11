@@ -182,7 +182,7 @@ Retrieving: http://py4e-data.dr-chuck.net/known_by_Fikret.html \
 Retrieving: http://py4e-data.dr-chuck.net/known_by_Montgomery.html \
 Retrieving: http://py4e-data.dr-chuck.net/known_by_Mhairade.html \
 Retrieving: http://py4e-data.dr-chuck.net/known_by_Butchi.html \
-Retrieving: http://py4e-data.dr-chuck.net/known_by_Anayah.html \
+Retrieving: http://py4e-data.dr-chuck.net/known_by_Anayah.html
 
 The answer to the assignment for this execution is "Anayah".
 
