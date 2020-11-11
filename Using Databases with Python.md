@@ -309,7 +309,7 @@ Then run geodump.py to read the database and produce where.js.
 
 Run the programs. Then open where.html to visualize the map.
 
-_**More explanation**_
+_**More explanation about the codes**_
 
 Note: Windows has difficulty in displaying UTF-8 characters in the console so for each command window you open, you may need to type the following command before running this code:
 
