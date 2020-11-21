@@ -10,9 +10,4 @@
 
 #### Numpy_ed.ipynb
 
-Array Creation\
-Array Operations\
-Indexing\
-Boolean Indexing\
-Slicing\
-Trying Numpy with Datasets
+Array Creation, Array Operations, Indexing, Boolean Indexing, Slicing, Trying Numpy with Datasets
