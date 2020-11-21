@@ -8,6 +8,9 @@
 
 - take tabular data, clean it, manipulate it, and run basic inferential statistical analyses
 
-#### Numpy_ed.ipynb
+### Numpy_ed.ipynb
 
 Array Creation, Array Operations, Indexing, Boolean Indexing, Slicing, Trying Numpy with Datasets
+
+### Regex_ed
+
