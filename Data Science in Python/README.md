@@ -14,4 +14,4 @@ Array Creation, Array Operations, Indexing, Boolean Indexing, Slicing, Trying Nu
 
 ### Regex_ed
 
-Patterns and Character Classes, Quantifiers, Groups
+Patterns and Character Classes, Quantifiers, Groups, Look-ahead and Look-behind
