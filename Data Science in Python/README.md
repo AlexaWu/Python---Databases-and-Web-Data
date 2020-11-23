@@ -15,3 +15,5 @@ Array Creation, Array Operations, Indexing, Boolean Indexing, Slicing, Trying Nu
 ### Regex_ed
 
 Patterns and Character Classes, Quantifiers, Groups, Look-ahead and Look-behind, Example: Wikipedia Data, Example: New York Times and Hashtags
+
+![](https://github.com/AlexaWu/Python/blob/main/screenshots/numpy%20%26%20pandas.png)
