@@ -12,7 +12,7 @@
 
 Array Creation, Array Operations, Indexing, Boolean Indexing, Slicing, Trying Numpy with Datasets
 
-### Regex_ed
+### Regex_ed.ipynb
 
 Patterns and Character Classes, Quantifiers, Groups, Look-ahead and Look-behind, Example: Wikipedia Data, Example: New York Times and Hashtags
 
