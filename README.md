@@ -1,6 +1,4 @@
-## Welcome! :smile:
-
-Below are the hyperlink lists of my python projects.
+# :books: Python projects: Database with SQLite & Access Web Data
 
 ### Using Python to Access Web Data
 
