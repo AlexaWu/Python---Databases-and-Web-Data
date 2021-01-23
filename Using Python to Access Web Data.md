@@ -1,13 +1,3 @@
-# Summary & Key Skills
-
-- Use regular expressions to extract data from strings
-- Understand the protocols web browsers use to retrieve documents and web apps
-- Retrieve data from websites and APIs using Python
-- Work with Json and XML (eXtensible Markup Language) data
-
-`Json`   `Xml`   `Python Programming`   `Web Scraping`
-
-
 # Extracting Data With Regular Expressions 
 
 _**Finding Numbers in a Haystack**_
@@ -61,7 +51,7 @@ print (sum)
 
 #### Sum: 357873
 
-
+---
 
 # Understanding the Request / Response Cycle
 
@@ -91,7 +81,7 @@ while True:
 
 mysock.close()
 ```
-
+---
 # Scraping HTML Data with BeautifulSoup
 
 _**Scraping Numbers from HTML using BeautifulSoup**_ 
@@ -151,7 +141,7 @@ for tag in tags:
 print(sum(number))
 ```
 #### Sum: 2446
-
+---
 # Following Links in HTML Using BeautifulSoup
 
 _**Following Links in Python**_
@@ -226,7 +216,7 @@ print(name)
 ```
 
 #### Name: Ismaeel 
-
+---
 # Extracting Data from XML
 
 Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
@@ -301,7 +291,7 @@ print(sum(list))
 
 ```
 #### Sum: 2232
-
+---
 # Extracting Data from JSON
 
 Write a Python program which will prompt for a URL, read the JSON data from that URL using **urllib** and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
@@ -373,7 +363,7 @@ print(sum)
 ```
 
 #### Sum: 2859
-
+---
 # Using the GeoJSON API
 
 _**Calling a JSON API**_
