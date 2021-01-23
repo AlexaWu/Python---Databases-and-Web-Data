@@ -1,4 +1,4 @@
-# :books: Python projects: Database with SQLite & Access Web Data
+# :books: Python projects: Access Web Data & Database with SQLite
 
 ### Using Python to Access Web Data
 
