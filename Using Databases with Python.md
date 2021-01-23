@@ -1,12 +1,3 @@
-# Summary & Key Skills
-
-- Use the Create, Read, Update, and Delete operations to manage databases
-- Explain the basics of Object Oriented Python
-- Understand how data is stored across multiple tables in a database
-- Utilize the Google Maps API to visualize data
-
-`Python Programming`   `Database (DBMS)`   `Sqlite`   `SQL`
-
 # Counting Organizations
 
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
@@ -63,6 +54,8 @@ cur.close()
 
 ### SQLite
 ![](https://github.com/AlexaWu/Python/blob/main/screenshots/emaildb.PNG)
+
+---
 
 # Multi-Table Database - Tracks
 
@@ -189,6 +182,8 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
 ```    
 ![](https://github.com/AlexaWu/Python/blob/main/screenshots/tracks.PNG)
 
+---
+
 # Many Students in Many Courses
 
 _**Instructions**_
@@ -290,6 +285,8 @@ Then you could get one row with a string: XYZZY4161646974736933363330
 
 ### SQLite
 ![](https://github.com/AlexaWu/Python/blob/main/screenshots/rosterdb.PNG)
+
+---
 
 # Databases and Visualization (Google GeoCoding API & Google Maps)
 
