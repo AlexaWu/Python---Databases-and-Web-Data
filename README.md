@@ -1,6 +1,15 @@
-# :books: Python projects: Access Web Data & Database with SQLite
+## :books: Python projects: Access Web Data & Database with SQLite
 
-### Using Python to Access Web Data
+## Using Python to Access Web Data
+
+Summary & Key Skills
+
+- Use regular expressions to extract data from strings
+- Understand the protocols web browsers use to retrieve documents and web apps
+- Retrieve data from websites and APIs using Python
+- Work with Json and XML (eXtensible Markup Language) data
+
+`Json`   `Xml`   `Python Programming`   `Web Scraping`
 
 [Extracting Data With Regular Expressions](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-with-regular-expressions)\
 [Understanding the Request / Response Cycle](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#understanding-the-request--response-cycle)\
@@ -11,6 +20,15 @@
 [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#using-the-geojson-api)
 
 ### Using Databases with Python
+
+Summary & Key Skills
+
+- Use the Create, Read, Update, and Delete operations to manage databases
+- Explain the basics of Object Oriented Python
+- Understand how data is stored across multiple tables in a database
+- Utilize the Google Maps API to visualize data
+
+`Python Programming`   `Database (DBMS)`   `Sqlite`   `SQL`
 
 [Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
 [Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
