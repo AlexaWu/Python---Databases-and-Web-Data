@@ -1,6 +1,6 @@
-## :books: Python projects: Access Web Data & Database with SQLite
+## Python projects
 
-## Using Python to Access Web Data
+### :notebook_with_decorative_cover: Using Python to Access Web Data
 
 Summary & Key Skills
 
@@ -19,7 +19,7 @@ Summary & Key Skills
 [Extracting Data from JSON](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-from-json)\
 [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#using-the-geojson-api)
 
-### Using Databases with Python
+### :notebook_with_decorative_cover: Using Databases with Python
 
 Summary & Key Skills
 
