@@ -224,8 +224,6 @@ _**Sample file for testing & actual data to process**_
 >Sample data: http://py4e-data.dr-chuck.net/comments_42.xml (Sum=2553)\
 Actual data: http://py4e-data.dr-chuck.net/comments_1037118.xml (Sum ends with 32)
 
-You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
-
 _**Data Format and Approach**_
 
 The data consists of a number of names and comment counts in XML as follows:
@@ -298,8 +296,6 @@ _**Sample file for testing & actual data to process**_
 
 >Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)\
 Actual data: http://py4e-data.dr-chuck.net/comments_1037119.json (Sum ends with 59)
-
-You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
 
 _**Data Format**_
 
