@@ -6,8 +6,6 @@ Read through and parse a file with text and numbers. Extract all the numbers in 
 
 _**Sample file for testing & actual data to process**_
 
-There are two files: One is a sample file where given the sum for testing and the other is the actual data need to process.
-
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
  Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
