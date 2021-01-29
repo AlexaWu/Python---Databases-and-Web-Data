@@ -4,7 +4,7 @@ _**Finding Numbers in a Haystack**_
 
 Read through and parse a file with text and numbers. Extract all the numbers in the file and compute the sum of the numbers.
 
-_**Data Files**_
+_**Sample file for testing & actual data to process**_
 
 There are two files: One is a sample file where given the sum for testing and the other is the actual data need to process.
 
