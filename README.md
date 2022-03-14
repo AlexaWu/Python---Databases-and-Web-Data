@@ -9,8 +9,6 @@ Summary & Key Skills
 - Retrieve data from websites and APIs using Python
 - Work with Json and XML (eXtensible Markup Language) data
 
-`Json`   `Xml`   `Python Programming`   `Web Scraping`
-
 [Extracting Data With Regular Expressions](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-with-regular-expressions)\
 [Understanding the Request / Response Cycle](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#understanding-the-request--response-cycle)\
 [Scraping HTML Data with BeautifulSoup](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#scraping-html-data-with-beautifulsoup)\
@@ -27,8 +25,6 @@ Summary & Key Skills
 - Explain the basics of Object Oriented Python
 - Understand how data is stored across multiple tables in a database
 - Utilize the Google Maps API to visualize data
-
-`Python Programming`   `Database (DBMS)`   `Sqlite`   `SQL`
 
 [Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
 [Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
