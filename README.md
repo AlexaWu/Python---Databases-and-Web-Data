@@ -1,6 +1,4 @@
-## Python projects
-
-### :notebook_with_decorative_cover: Using Python to Access Web Data
+## :notebook_with_decorative_cover: Python project 1 - Using Python to Access Web Data
 
 Summary & Key Skills
 
