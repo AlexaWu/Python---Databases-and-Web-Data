@@ -1,4 +1,4 @@
-## :notebook_with_decorative_cover: Python project 1 - Using Python to Access Web Data
+## :notebook_with_decorative_cover: Project 1 - Using Python to Access Web Data
 
 Summary & Key Skills
 
@@ -6,6 +6,8 @@ Summary & Key Skills
 - Understand the protocols web browsers use to retrieve documents and web apps
 - Retrieve data from websites and APIs using Python
 - Work with Json and XML (eXtensible Markup Language) data
+
+Project details
 
 [Extracting Data With Regular Expressions](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-with-regular-expressions)\
 [Understanding the Request / Response Cycle](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#understanding-the-request--response-cycle)\
@@ -15,7 +17,7 @@ Summary & Key Skills
 [Extracting Data from JSON](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-from-json)\
 [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#using-the-geojson-api)
 
-### :notebook_with_decorative_cover: Using Databases with Python
+## :notebook_with_decorative_cover: Project 2 - Using Databases with Python
 
 Summary & Key Skills
 
@@ -23,6 +25,8 @@ Summary & Key Skills
 - Explain the basics of Object Oriented Python
 - Understand how data is stored across multiple tables in a database
 - Utilize the Google Maps API to visualize data
+
+Project details
 
 [Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
 [Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
