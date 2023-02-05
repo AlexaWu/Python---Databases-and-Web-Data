@@ -91,13 +91,6 @@ The file is a table of names and comment counts. Find lines like the following:
 ```
 
 Find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
-    
-### Sample Execution
-
->$ python3 solution.py\
-Enter - http://py4e-data.dr-chuck.net/comments_42.html \
-Count 50\
-Sum 2...
 
 ### Python Code:
  
@@ -165,7 +158,7 @@ Retrieving: http://py4e-data.dr-chuck.net/known_by_Anayah.html
 The answer to the assignment for this execution is "Anayah".
 
 #### Python code:
-```javascript
+```python
 # To run this, download the BeautifulSoup zip file
 # http://www.py4e.com/code3/bs4.zip
 # and unzip it in the same directory as this file
