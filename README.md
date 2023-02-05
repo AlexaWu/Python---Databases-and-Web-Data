@@ -17,7 +17,7 @@ Part 5 - [Extracting Data from XML](https://github.com/AlexaWu/Python/blob/main/
 Part 6 - [Extracting Data from JSON](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-from-json)\
 Part 7 - [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#using-the-geojson-api)
 
-## :notebook_with_decorative_cover: Project 2 - Using Databases with Python
+## :notebook_with_decorative_cover: Project 2 - Using Python to Manage Databases
 
 #### Project summary
 
