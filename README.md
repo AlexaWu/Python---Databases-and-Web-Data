@@ -1,4 +1,4 @@
-## :notebook_with_decorative_cover: Project 1 - Using Python to Access Web Data
+## :notebook_with_decorative_cover: Project 1 - Using Python to Access Web Data ([coursera link](https://www.coursera.org/learn/python-network-data?specialization=python#about))
 
 #### Project summary
 
@@ -17,7 +17,7 @@ Part 5 - [Extracting Data from XML](https://github.com/AlexaWu/Python/blob/main/
 Part 6 - [Extracting Data from JSON](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#extracting-data-from-json)\
 Part 7 - [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Using%20Python%20to%20Access%20Web%20Data.md#using-the-geojson-api)
 
-## :notebook_with_decorative_cover: Project 2 - Using Python to Manage Databases
+## :notebook_with_decorative_cover: Project 2 - Using Python to Manage Databases ([coursera link]([https://www.coursera.org/learn/python-network-data?specialization=python#about](https://www.coursera.org/learn/python-databases?specialization=python)))
 
 #### Project summary
 
@@ -32,3 +32,5 @@ Part 1 - [Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Us
 Part 2 - [Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
 Part 3 - [Many Students in Many Courses](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#many-students-in-many-courses)\
 Part 4 - [Databases and Visualization (Google GeoCoding API & Google Maps)](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#databases-and-visualization-google-geocoding-api--google-maps)
+
+!(https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Hex.png)
