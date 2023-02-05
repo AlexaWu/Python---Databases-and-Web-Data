@@ -75,7 +75,8 @@ mysock.close()
 
 ### Scraping Numbers from HTML using BeautifulSoup
 
-Use **urllib** to read the HTML from the data files below, parse the data, extracte numbers, and compute the sum of the numbers in the file.
+The goal is to use **urllib** to read the HTML from the data files below, parse the data, extracte numbers, and compute the sum of the numbers in the file.\
+The approach is to find all the **span** tags in the file, pull out the numbers from the tag, and sum the numbers.
 
 ### Data Files
 
@@ -90,9 +91,7 @@ The file is a table of names and comment counts. Find lines like the following:
 <tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
 ```
 
-Find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
-
-### Python Code:
+### Python Code
  
 ```python
 # To run this, download the BeautifulSoup zip file
@@ -125,11 +124,11 @@ print(sum(number))
 ---
 # Part 4 - Following Links in HTML Using BeautifulSoup
 
-_**Following Links in Python**_
+### Following Links in Python
 
-Write a Python program which will use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
+Use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.
 
-_**Sample file for testing & actual data to process**_
+### Data Files
 
 >Sample problem: Start at http://py4e-data.dr-chuck.net/known_by_Fikret.html \
 Find the link at position **3** (the first name is 1). Follow that link. Repeat this process **4** times. The answer is the last name that you retrieve.\
@@ -157,7 +156,8 @@ Retrieving: http://py4e-data.dr-chuck.net/known_by_Anayah.html
 
 The answer to the assignment for this execution is "Anayah".
 
-#### Python code:
+### Python Code
+ 
 ```python
 # To run this, download the BeautifulSoup zip file
 # http://www.py4e.com/code3/bs4.zip
@@ -198,7 +198,7 @@ print(name)
 
 #### Name: Ismaeel 
 ---
-# Extracting Data from XML
+# Part 5 - Extracting Data from XML
 
 Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
@@ -233,8 +233,9 @@ Retrieved 4189 characters\
 Count: 50\
 Sum: 2...
 
-#### Python code:
-```javascript
+### Python Code
+ 
+```python
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 import ssl
@@ -271,7 +272,7 @@ print(sum(list))
 ```
 #### Sum: 2232
 ---
-# Extracting Data from JSON
+# Part 6 - Extracting Data from JSON
 
 Write a Python program which will prompt for a URL, read the JSON data from that URL using **urllib** and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
 
@@ -341,7 +342,8 @@ print(sum)
 
 #### Sum: 2859
 ---
-# Using the GeoJSON API
+
+ # Using the GeoJSON API
 
 _**Calling a JSON API**_
 
@@ -376,8 +378,9 @@ Please run your program to find the **place_id** for this location:
 Make sure to enter the name and case exactly as above and enter the **place_id** and your Python code below. Hint: The first seven characters of the **place_id** are "ChIJY34 ..."
 Make sure to retreive the data from the URL specified above and **not** the normal Google API. Your program should work with the Google API - but the **place_id** may not match for this assignment.
 
-#### Python code:
-```javascript
+### Python Code
+ 
+```python
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
