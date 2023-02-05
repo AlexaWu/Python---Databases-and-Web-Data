@@ -1,18 +1,15 @@
 # Part 1 - Extracting Data With Regular Expressions 
 
-#### Goal
+#### Handling The Data
 
-Parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers.
+Parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers. The approach is to look for integers using the re.findall(), look for a regular expression of '[0-9]+', converte the extracted strings to integers, and sum up the integers.
 
-#### Dataset
+#### Data & File
 
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
  Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
 
-#### Data Format
-
-The file contains much of the text from the introduction of the textbook except that random numbers are inserted throughout the text. Here is a sample of the file output you might see:
-
+Here is a sample of the file output:
 
 > Why should you learn to write programs? 7746\
 12 1929 8827\
@@ -23,14 +20,7 @@ many reasons, ranging from making your living to solving\
 someone else solve a problem.  This book assumes that \
 everyone needs to know how to program ...
 
-
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
-
-
-#### Handling The Data
-
-The basic outline of this problem is to read the file, look for integers using the re.findall(), looking for a regular expression of '[0-9]+' and then converting the extracted strings to integers and summing up the integers.
-
 
 #### Python code
 
