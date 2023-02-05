@@ -127,7 +127,7 @@ print(sum(number))
 ### Following Links in Python
 
 The goal is to use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.\
-The web pages tweak the height between the links and hide the page after a few seconds to make it difficult for you to do the assignment without writing a Python program.
+The web pages tweak the height between the links and hide the page after a few seconds.
 
 ### Data Files
 
@@ -141,8 +141,7 @@ Hint: The first character of the name of the last page that you will load is: I
 
 ### Sample Execution Logic
 
-> $ python3 solution.py\
-Enter URL: http://py4e-data.dr-chuck.net/known_by_Fikret.html \
+> Enter URL: http://py4e-data.dr-chuck.net/known_by_Fikret.html \
 Enter count: 4\
 Enter position: 3\
 Retrieving: http://py4e-data.dr-chuck.net/known_by_Fikret.html \
@@ -199,14 +198,13 @@ print(name)
 
 Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
-_**Sample file for testing & actual data to process**_
+### Data Files
 
 >Sample data: http://py4e-data.dr-chuck.net/comments_42.xml (Sum=2553)\
 Actual data: http://py4e-data.dr-chuck.net/comments_1037118.xml (Sum ends with 32)
 
-_**Data Format and Approach**_
-
 The data consists of a number of names and comment counts in XML as follows:
+
 ```javascript
 <comment>
   <name>Matthias</name>
@@ -221,10 +219,9 @@ To make the code a little simpler, you can use an XPath selector string to look 
 
 Take a look at the Python ElementTree documentation and look for the supported XPath syntax for details. You could also work from the top of the XML down to the comments node and then loop through the child nodes of the comments node.
 
-_**Sample Execution**_
+### Sample Execution Logic
 
->$ python3 solution.py\
-Enter location: http://py4e-data.dr-chuck.net/comments_42.xml \
+>Enter location: http://py4e-data.dr-chuck.net/comments_42.xml \
 Retrieving http://py4e-data.dr-chuck.net/comments_42.xml \
 Retrieved 4189 characters\
 Count: 50\
@@ -273,12 +270,10 @@ print(sum(list))
 
 Write a Python program which will prompt for a URL, read the JSON data from that URL using **urllib** and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
 
-_**Sample file for testing & actual data to process**_
-
+### Data Files
+ 
 >Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)\
 Actual data: http://py4e-data.dr-chuck.net/comments_1037119.json (Sum ends with 59)
-
-_**Data Format**_
 
 The data consists of a number of names and comment counts in JSON as follows:
 
@@ -298,10 +293,9 @@ The data consists of a number of names and comment counts in JSON as follows:
 
 The closest sample code that shows how to parse JSON and extract a list is json2.py. You might also want to look at geoxml.py to see how to prompt for a URL and retrieve data from a URL.
 
-_**Sample Execution**_
+### Sample Execution Logic
 
->$ python3 solution.py\
-Enter location: http://py4e-data.dr-chuck.net/comments_42.json \
+>Enter location: http://py4e-data.dr-chuck.net/comments_42.json \
 Retrieving http://py4e-data.dr-chuck.net/comments_42.json \
 Retrieved 2733 characters\
 Count: 50\
@@ -343,7 +337,7 @@ print(sum)
 
  # Part 7 - Using the GeoJSON API
 
-_**Calling a JSON API**_
+### Calling a JSON API
 
 Write a Python program which will prompt for a location, contact a web service and retrieve JSON for the web service and parse that data, and retrieve the first place_id from the JSON. A place ID is a textual identifier that uniquely identifies a place as within Google Maps.
 
@@ -357,12 +351,11 @@ This API uses the same parameter (address) as the Google API. This API also has 
 
 To call the API, you need to include a **key=** parameter and provide the address that you are requesting as the **address=** parameter that is properly URL encoded using the **urllib.parse.urlencode()** function
 
-_**Test Data / Sample Execution**_
+### Sample Execution Logic
 
 You can test to see if your program is working with a location of "South Federal University" which will have a **place_id** of "ChIJJ2MNmPl_bIcRt8t5x-X5ZhQ".
 
->$ python3 solution.py\
-Enter location: South Federal University\
+>Enter location: South Federal University\
 Retrieving http://...\
 Retrieved 2290 characters\
 Place id ChIJJ2MNmPl_bIcRt8t5x-X5ZhQ
