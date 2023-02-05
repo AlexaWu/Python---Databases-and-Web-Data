@@ -5,7 +5,7 @@
 The goal is to parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers. \
 The approach is to look for integers using the re.findall(), look for a regular expression of '[0-9]+', converte the extracted strings to integers, and sum up the integers.
 
-### Data & File
+### Data Files
 
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
  Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
@@ -23,9 +23,9 @@ everyone needs to know how to program ...
 
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
-### Python code
+### Python Code
 
-```javascript
+```python
 import re
 handle = open('regex_sum_1037114.txt')
 file = handle.read()
@@ -52,9 +52,9 @@ The approach is to retrieve the URL and print out the headers and data. Open the
 
 Web URL: http://data.pr4e.org/intro-short.txt
 
-#### Python code:
+### Python Code:
 
-```javascript
+```python
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -73,16 +73,14 @@ mysock.close()
 ---
 # Part 3 - Scraping HTML Data with BeautifulSoup
 
-_**Scraping Numbers from HTML using BeautifulSoup**_ 
+### Scraping Numbers from HTML using BeautifulSoup
 
-Write a Python program which will use **urllib** to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
+Use **urllib** to read the HTML from the data files below, parse the data, extracte numbers, and compute the sum of the numbers in the file.
 
-_**Sample file for testing & actual data to process**_
+### Data Files
 
 > Sample data: http://py4e-data.dr-chuck.net/comments_42.html (Sum=2553)\
  Actual data: http://py4e-data.dr-chuck.net/comments_1037116.html (Sum ends with 46)
-
-_**Data Format**_
 
 The file is a table of names and comment counts. Find lines like the following:
 
@@ -94,16 +92,16 @@ The file is a table of names and comment counts. Find lines like the following:
 
 Find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
     
-_**Sample Execution**_
+### Sample Execution
 
 >$ python3 solution.py\
 Enter - http://py4e-data.dr-chuck.net/comments_42.html \
 Count 50\
 Sum 2...
 
-#### Python code:
+### Python Code:
  
-```javascript
+```python
 # To run this, download the BeautifulSoup zip file
 # http://www.py4e.com/code3/bs4.zip
 # and unzip it in the same directory as this file
