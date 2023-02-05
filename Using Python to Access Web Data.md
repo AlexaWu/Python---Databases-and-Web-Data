@@ -1,10 +1,11 @@
 # Part 1 - Extracting Data With Regular Expressions 
 
-#### Handling The Data
+### Handling The Data
 
-Parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers. The approach is to look for integers using the re.findall(), look for a regular expression of '[0-9]+', converte the extracted strings to integers, and sum up the integers.
+The goal is to parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers. \
+The approach is to look for integers using the re.findall(), look for a regular expression of '[0-9]+', converte the extracted strings to integers, and sum up the integers.
 
-#### Data & File
+### Data & File
 
 > Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)\
  Actual data: http://py4e-data.dr-chuck.net/regex_sum_1037114.txt (There are 88 values and the sum ends with 873)
@@ -22,7 +23,7 @@ everyone needs to know how to program ...
 
 The sum for the sample text above is **27486**. The numbers can appear anywhere in the line. There can be any number of numbers in each line (including none).
 
-#### Python code
+### Python code
 
 ```javascript
 import re
@@ -44,13 +45,12 @@ print (sum)
 
 # Part 2 - Understanding the Request / Response Cycle
 
-_**Exploring the HyperText Transport Protocol**_
+### Exploring the HyperText Transport Protocol
 
-Retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
+The goal is to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.\
+The approach is to retrieve the URL and print out the headers and data. Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
 
-http://data.pr4e.org/intro-short.txt
-
-Retrieve the above URL and print out the headers and data. Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
+Web URL: http://data.pr4e.org/intro-short.txt
 
 #### Python code:
 
