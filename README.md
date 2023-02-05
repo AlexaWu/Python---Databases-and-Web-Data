@@ -3,9 +3,9 @@
 Summary & Key Skills
 
 - Use regular expressions to extract data from strings
-- Understand the protocols web browsers use to retrieve documents and web apps
+- Retrieve documents and web apps with web browsers protocols
 - Retrieve data from websites and APIs using Python
-- Work with Json and XML (eXtensible Markup Language) data
+- Work with Json and XML data
 
 Project details
 
