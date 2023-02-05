@@ -28,7 +28,7 @@ Part 7 - [Using the GeoJSON API](https://github.com/AlexaWu/Python/blob/main/Usi
 
 #### Project details
 
-[Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
-[Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
-[Many Students in Many Courses](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#many-students-in-many-courses)\
-[Databases and Visualization (Google GeoCoding API & Google Maps)](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#databases-and-visualization-google-geocoding-api--google-maps)
+Part 1 - [Counting Organizations](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#counting-organizations)\
+Part 2 - [Multi-Table Database - Tracks](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#multi-table-database---tracks)\
+Part 3 - [Many Students in Many Courses](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#many-students-in-many-courses)\
+Part 4 - [Databases and Visualization (Google GeoCoding API & Google Maps)](https://github.com/AlexaWu/Python/blob/main/Using%20Databases%20with%20Python.md#databases-and-visualization-google-geocoding-api--google-maps)
