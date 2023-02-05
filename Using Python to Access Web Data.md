@@ -1,4 +1,4 @@
-# Extracting Data With Regular Expressions 
+# Part 1 - Extracting Data With Regular Expressions 
 
 _**Finding Numbers in a Haystack**_
 
@@ -51,7 +51,7 @@ print (sum)
 
 ---
 
-# Understanding the Request / Response Cycle
+# Part 2 - Understanding the Request / Response Cycle
 
 _**Exploring the HyperText Transport Protocol**_
 
@@ -80,7 +80,7 @@ while True:
 mysock.close()
 ```
 ---
-# Scraping HTML Data with BeautifulSoup
+# Part 3 - Scraping HTML Data with BeautifulSoup
 
 _**Scraping Numbers from HTML using BeautifulSoup**_ 
 
@@ -111,6 +111,7 @@ Count 50\
 Sum 2...
 
 #### Python code:
+ 
 ```javascript
 # To run this, download the BeautifulSoup zip file
 # http://www.py4e.com/code3/bs4.zip
@@ -140,7 +141,7 @@ print(sum(number))
 ```
 #### Sum: 2446
 ---
-# Following Links in HTML Using BeautifulSoup
+# Part 4 - Following Links in HTML Using BeautifulSoup
 
 _**Following Links in Python**_
 
