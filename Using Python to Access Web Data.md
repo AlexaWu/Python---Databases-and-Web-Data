@@ -1,6 +1,6 @@
 ## Part 1 - Extracting Data With Regular Expressions 
 
-### Handling The Data
+### Goal and Approach
 
 The goal is to parse a file with text and numbers, extract all the numbers in the file and compute the sum of the numbers. \
 The approach is to look for integers using the re.findall(), look for a regular expression of '[0-9]+', converte the extracted strings to integers, and sum up the integers.
@@ -45,7 +45,7 @@ print (sum)
 
 ## Part 2 - Understanding the Request / Response Cycle
 
-### Exploring the HyperText Transport Protocol
+### Goal and Approach
 
 The goal is to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.\
 The approach is to retrieve the URL and print out the headers and data. Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
@@ -73,7 +73,7 @@ mysock.close()
 ---
 ## Part 3 - Scraping HTML Data with BeautifulSoup
 
-### Scraping Numbers from HTML using BeautifulSoup
+### Goal and Approach
 
 The goal is to use **urllib** to read the HTML from the data files below, parse the data, extracte numbers, and compute the sum of the numbers in the file.\
 The approach is to find all the **span** tags in the file, pull out the numbers from the tag, and sum the numbers.
@@ -121,10 +121,11 @@ for tag in tags:
 print(sum(number))
 ```
 #### Sum: 2446
+
 ---
 ## Part 4 - Following Links in HTML Using BeautifulSoup
 
-### Following Links in Python
+### Goal and Approach
 
 The goal is to use **urllib** to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and report the last name you find.\
 The web pages tweak the height between the links and hide the page after a few seconds.
@@ -193,8 +194,11 @@ print(name)
 ```
 
 #### Name: Ismaeel 
+
 ---
 ## Part 5 - Extracting Data from XML
+
+### Goal and Approach
 
 Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
