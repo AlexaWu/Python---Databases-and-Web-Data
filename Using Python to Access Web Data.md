@@ -1,4 +1,4 @@
-# Part 1 - Extracting Data With Regular Expressions 
+## Part 1 - Extracting Data With Regular Expressions 
 
 ### Handling The Data
 
@@ -43,7 +43,7 @@ print (sum)
 
 ---
 
-# Part 2 - Understanding the Request / Response Cycle
+## Part 2 - Understanding the Request / Response Cycle
 
 ### Exploring the HyperText Transport Protocol
 
@@ -71,7 +71,7 @@ while True:
 mysock.close()
 ```
 ---
-# Part 3 - Scraping HTML Data with BeautifulSoup
+## Part 3 - Scraping HTML Data with BeautifulSoup
 
 ### Scraping Numbers from HTML using BeautifulSoup
 
@@ -122,7 +122,7 @@ print(sum(number))
 ```
 #### Sum: 2446
 ---
-# Part 4 - Following Links in HTML Using BeautifulSoup
+## Part 4 - Following Links in HTML Using BeautifulSoup
 
 ### Following Links in Python
 
@@ -194,7 +194,7 @@ print(name)
 
 #### Name: Ismaeel 
 ---
-# Part 5 - Extracting Data from XML
+## Part 5 - Extracting Data from XML
 
 Write a Python program which will prompt for a URL, read the XML data from that URL using **urllib** and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
@@ -265,8 +265,9 @@ print(sum(list))
 
 ```
 #### Sum: 2232
+ 
 ---
-# Part 6 - Extracting Data from JSON
+## Part 6 - Extracting Data from JSON
 
 Write a Python program which will prompt for a URL, read the JSON data from that URL using **urllib**, parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file, and enter the sum below:
 
@@ -335,7 +336,7 @@ print(sum)
 #### Sum: 2859
 ---
 
- # Part 7 - Using the GeoJSON API
+## Part 7 - Using the GeoJSON API
 
 ### Calling a JSON API
 
